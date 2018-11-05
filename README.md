@@ -1,2 +1,4 @@
 # hello_world
-my first repository
+my first repository.
+Hi guys ,
+my name is fariz.
