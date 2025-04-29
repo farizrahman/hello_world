@@ -16,3 +16,7 @@ For checking module info
    
 For cleaning dmesg
 1. dmesg -c
+
+For checking module is loaded successfully
+1. sudo lsmod
+   
