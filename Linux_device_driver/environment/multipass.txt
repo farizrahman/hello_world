@@ -1,0 +1,22 @@
+Download multipass from https://canonical.com/multipass/install
+Perform the installation on windows
+Open cmd and run "multipass networks" - // for checking wifi name
+In cmd run "multipass launch --network WiFi --name primary" - // WiFi is obtained from previous step , it is download and create linux image
+In cmd run "multipass shell" command
+multipass list - //for checking status of multipass
+install vs code - //we will connect vs code to multipass using ssh
+Goto extension and install Remote Developement
+In cmd after multipass launch run "sudo vim /etc/ssh/sshd_config"
+Press esc run " :set nu" in vim for enabling line number
+Run "/passwords" - //For searching password 
+press "n" - //for next occurrence
+line 62 change no to yes by swithcing to interactive mode by pressing i
+After editing press esc - // switched to cmd mode
+Run "wq" - //Save and exit(write and quit)
+For not saving and exit - ":qa! or q! "
+In cmd "sudo sysemctl daemon-reload" - //Asking daemon to reload
+In cmd " sudo service ssh restart" - // Restarting ssh
+In cmd " sudo passwd ubuntu" - // Setting password
+In cmd " hostname -I " - // For getting ip address of ubuntu
+In vscode remote explorer -> Remotes -> (change to remote) -> SSH -> click plus icon -> ubuntu@ip obtained from previous step
+
