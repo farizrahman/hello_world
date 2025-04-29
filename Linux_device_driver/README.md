@@ -13,5 +13,6 @@ steps to load the lkm to linux kernel:
 
 For checking module info 
 1. modinfo ldd.ko
+   
 For cleaning dmesg
 1. dmesg -c
