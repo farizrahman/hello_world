@@ -20,3 +20,6 @@ For cleaning dmesg
 For checking module is loaded successfully
 1. sudo lsmod
    
+For checking file types in a directory
+1. file - //eg: file file.c
+
