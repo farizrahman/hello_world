@@ -23,3 +23,6 @@ For checking module is loaded successfully
 For checking file types in a directory
 1. file - //eg: file file.c
 
+For printing dmesg continuosly
+1. sudo dmesg -W
+
